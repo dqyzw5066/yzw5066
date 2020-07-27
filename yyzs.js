@@ -12,7 +12,7 @@ hostname = newdrugs.dxy.cn
 
 const path1 = "/snsapi/username/";
 const path2 = "/app/user/pro/stat?";
-const path3 = "/app/user/|init?timestamp=";
+const path3 = "/app/user/init?timestamp=";
 
 const url = $requires.url;
 let body = $response.body;
