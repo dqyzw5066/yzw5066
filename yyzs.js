@@ -2,7 +2,9 @@
 QX:
 
 [Rewrite_local]
-^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
+^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/dqyzw5066/yzw5066/master/yyzs.js
+
+
 
 [MITM]
 hostname = newdrugs.dxy.cn
