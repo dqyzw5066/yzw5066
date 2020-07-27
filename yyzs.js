@@ -7,7 +7,7 @@ http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/
 
 
 [MITM]
-hostname = newdrugs.dxy.cn
+hostname =newdrugs.dxy.cn
 */
 
 const path1 = "/snsapi/username/";
