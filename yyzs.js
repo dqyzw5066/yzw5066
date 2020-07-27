@@ -10,7 +10,7 @@ hostname = newdrugs.dxy.cn
 
 const path1 = "/snsapi/username/";
 const path2 = "/app/user/pro/stat?";
-const path3 = "/app/user/stat\?|init\?timestamp=";
+const path3 = "/app/user/|init?timestamp=";
 var body = $response.body;
 var obj = JSON.parse(body);
 const url = $requires.url;
