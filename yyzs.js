@@ -1,7 +1,7 @@
 /*
 QX:
 
-[Rewriter_local]
+[Rewrite_local]
 ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
 
 [MITM]
@@ -11,8 +11,7 @@ hostname = newdrugs.dxy.cn
 const path1 = "/snsapi/username/";
 const path2 = "/app/user/pro/stat?";
 const path3 = "/app/user/|init?timestamp=";
-var body = $response.body;
-var obj = JSON.parse(body);
+
 const url = $requires.url;
 let body = $response.body;
 
